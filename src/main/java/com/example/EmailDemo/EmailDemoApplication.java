@@ -19,7 +19,7 @@ public class EmailDemoApplication {
 	@EventListener(ApplicationReadyEvent.class)
 	public  void  sendMail()
 	{
-	emailSenderService.sendSimpleEmail("bharatb.urteqi@gmail.com",
+	emailSenderService.sendSimpleEmail("<to mail id>",
 				"This is email body",
 				"Hiii bharat hoe are you?");
 
